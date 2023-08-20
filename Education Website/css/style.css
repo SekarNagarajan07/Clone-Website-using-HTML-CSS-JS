@@ -109,6 +109,7 @@ nav {
   background: var(--color-primary);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
+
 .nav_container {
   height: 100%;
   display: flex;
@@ -261,7 +262,7 @@ header {
   text-align: center;
 }
 
-/*FAQS*/
+/* FAQS */
 .faqs {
   background: var(--color-bg1);
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.3);
