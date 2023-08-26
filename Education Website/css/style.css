@@ -414,6 +414,7 @@ footer ul li a:hover {
     font-size: 1.8rem;
     color: var(--color-white);
     cursor: pointer;
+    margin-right: 2rem;
   }
   nav button#close-menu-btn {
     display: none;
@@ -463,5 +464,12 @@ footer ul li a:hover {
   }
   .categories_left {
     margin-right: 0;
+  }
+  /*popular courses*/
+  .course {
+    margin-top: 0;
+  }
+  .courses_container {
+    grid-template-columns: 1fr 1fr;
   }
 }
