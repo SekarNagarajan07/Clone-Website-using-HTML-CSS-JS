@@ -444,4 +444,24 @@ footer ul li a:hover {
     background: var(--color-bg2);
     color: var(--color-white);
   }
+
+  /*Header*/
+  header {
+    height: 100vh;
+    margin-bottom: 4rem;
+  }
+  .header_container {
+    gap: 0;
+    padding-bottom: 3rem;
+  }
+  .categories {
+    height: auto;
+  }
+  .categories_container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .categories_left {
+    margin-right: 0;
+  }
 }
